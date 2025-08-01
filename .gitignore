@@ -3,6 +3,9 @@
 *.vsix
 .publishertoken
 
+# Ansible
+.ansible/
+
 # Python
 venv/
 __pycache__/
