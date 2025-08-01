@@ -41,7 +41,7 @@ jobs:
       run: vsce package
       
     - name: Upload VSIX artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: fedaykin-themes-vsix
         path: '*.vsix'
