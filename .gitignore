@@ -1,6 +1,7 @@
 # VS Code
 .vscode/
 *.vsix
+.publishertoken
 
 # Python
 venv/
@@ -19,3 +20,6 @@ node_modules/
 # Build artifacts
 dist/
 out/
+
+# Development documentation
+DEVELOPMENT.md

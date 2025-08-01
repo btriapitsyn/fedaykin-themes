@@ -8,6 +8,7 @@ generate_theme.py
 color_palettes/
 themes/theme-template.json
 references/
+DEVELOPMENT.md
 
 # Claude AI files
 .claude/
@@ -18,3 +19,4 @@ __pycache__/
 *.pyc
 requirements.txt
 convert_icon.py
+.publishertoken

@@ -3,7 +3,7 @@
   "displayName": "Fedaykin",
   "description": "Dark Dune-inspired themes for VS Code",
   "version": "0.0.1",
-  "publisher": "Fedaykin.Dev",
+  "publisher": "FedaykinDev",
   "repository": {
     "type": "git",
     "url": "https://github.com/btriapitsyn/fedaykin-themes"
@@ -18,6 +18,15 @@
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "dune",
+    "fedaykin",
+    "arrakis",
+    "desert",
+    "warm"
   ],
   "contributes": {
     "themes": [
