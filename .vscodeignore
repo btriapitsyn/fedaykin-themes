@@ -1,0 +1,20 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+vsc-extension-quickstart.md
+
+# Development files
+generate_theme.py
+color_palettes/
+themes/theme-template.json
+references/
+
+# Claude AI files
+.claude/
+
+# Python files
+venv/
+__pycache__/
+*.pyc
+requirements.txt
+convert_icon.py

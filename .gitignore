@@ -1,0 +1,21 @@
+# VS Code
+.vscode/
+*.vsix
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.Python
+env/
+ENV/
+
+# macOS
+.DS_Store
+
+# Node (if added later)
+node_modules/
+
+# Build artifacts
+dist/
+out/

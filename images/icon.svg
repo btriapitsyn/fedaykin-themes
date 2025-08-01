@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="128" height="128" fill="#0D0907"/>
+  
+  <!-- Sand dune curves -->
+  <path d="M0 80 Q32 50, 64 60 T128 80 L128 128 L0 128 Z" fill="#403427"/>
+  <path d="M0 90 Q40 70, 80 75 T128 90 L128 128 L0 128 Z" fill="#291810"/>
+  
+  <!-- Double moon/sun -->
+  <circle cx="48" cy="32" r="16" fill="#c1c0b2" opacity="0.8"/>
+  <circle cx="56" cy="36" r="12" fill="#e8b261" opacity="0.9"/>
+  
+  <!-- Minimalist spice wind lines -->
+  <path d="M20 50 Q40 48, 60 50" stroke="#b7b38a" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M30 55 Q50 53, 70 55" stroke="#b7b38a" stroke-width="1" fill="none" opacity="0.4"/>
+  <path d="M25 60 Q45 58, 65 60" stroke="#b7b38a" stroke-width="1" fill="none" opacity="0.3"/>
+</svg>
