@@ -1,6 +1,7 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+.ansible/**
 vsc-extension-quickstart.md
 
 # Development files
