@@ -241,7 +241,7 @@
 		// Semantic token colors (used by language servers)
 		"comment": {
 			"foreground": "#7a6954",
-			"fontStyle": "italic"
+			"fontStyle": "normal" // available styles: "italic", "bold", "underline", "strikethrough"
 		},
 		"string": "#b7b38a", // String literals
 		"keyword": "#757c67", // Language keywords
@@ -275,11 +275,11 @@
 		// Special Python tokens
 		"selfParameter": {
 			"foreground": "#af5b33",
-			"fontStyle": "italic"
+			"fontStyle": "normal"
 		},
 		"magicFunction": {
 			"foreground": "#e8b261",
-			"fontStyle": "italic"
+			"fontStyle": "normal"
 		}
 	},
 	"tokenColors": [
@@ -470,7 +470,7 @@
 			],
 			"settings": {
 				"foreground": "#af5b33",
-				"fontStyle": "italic"
+				"fontStyle": "normal"
 			}
 		},
 		{
@@ -480,7 +480,7 @@
 			],
 			"settings": {
 				"foreground": "#e8b261",
-				"fontStyle": "italic"
+				"fontStyle": "normal"
 			}
 		},
 		// Additional language-specific rules from worm-night
@@ -746,7 +746,7 @@
 				"source.js constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "normal",
 				"foreground": "#af5b33"
 			}
 		},
@@ -801,7 +801,7 @@
 			"name": "Markup - Italic",
 			"scope": ["markup.italic"],
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "normal",
 				"foreground": "#c1c0b2"
 			}
 		},
@@ -978,7 +978,7 @@
 			"scope": ["variable.parameter.function.python"],
 			"settings": {
 				"foreground": "#af5b33",
-				"fontStyle": "italic"
+				"fontStyle": "normal"
 			}
 		},
 		{
@@ -1098,11 +1098,14 @@
 			}
 		},
 		{
-			"name": "Python Docstrings",
-			"scope": ["string.quoted.docstring.multi.python"],
+			"name": "Python String Punctuation",
+			"scope": [
+				"punctuation.definition.string.begin.python",
+				"punctuation.definition.string.end.python",
+				"string.quoted.docstring.multi.python"
+			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#858d7c"
+				"foreground": "#b7b38a"
 			}
 		},
 		{
@@ -1110,7 +1113,7 @@
 			"scope": ["constant.language.python"],
 			"settings": {
 				"foreground": "#af5b33",
-				"fontStyle": "italic"
+				"fontStyle": "normal"
 			}
 		},
 		// JavaScript/TypeScript string literals

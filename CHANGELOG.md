@@ -1,9 +1,10 @@
 # Change Log
-
-All notable changes to the Fedaykin themes will be documented in this file.
+## [0.0.2] - 2025-08-02
+### Added
+- Three new themes: Dune Night, Dune Day, and Dune Harkonnen
+- Enhanced Python syntax highlighting for string punctuation and docstrings
 
 ## [0.0.1] - 2024-08-01
-
 ### Added
 - Initial release with two themes:
   - **Fedaykin Dark**: A sophisticated dark theme with muted earth tones

@@ -2,7 +2,7 @@
   "name": "fedaykin-themes",
   "displayName": "Fedaykin",
   "description": "Dark Dune-inspired themes for VS Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "FedaykinDev",
   "repository": {
     "type": "git",
@@ -31,14 +31,39 @@
   "contributes": {
     "themes": [
       {
-        "label": "Fedaykin Dark",
+        "label": "Fedaykin Default",
         "uiTheme": "vs-dark",
         "path": "./themes/fedaykin-dark-color-theme.json"
       },
       {
-        "label": "Fedaykin Dark Arrakis",
+        "label": "Fedaykin Arrakis",
         "uiTheme": "vs-dark",
         "path": "./themes/fedaykin-dark-arrakis-color-theme.json"
+      },
+      {
+        "label": "Fedaykin Movie One",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-movie-one-color-theme.json"
+      },
+      {
+        "label": "Fedaykin Jodorowsky Dune",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jodorowsky-dune-color-theme.json"
+      },
+      {
+        "label": "Fedaykin Dune Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-night-color-theme.json"
+      },
+      {
+        "label": "Fedaykin Dune Day",
+        "uiTheme": "vs",
+        "path": "./themes/dune-day-color-theme.json"
+      },
+      {
+        "label": "Fedaykin Dune Harkonnen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-harkonnen-color-theme.json"
       }
     ]
   }
