@@ -1,4 +1,4 @@
-name: Publish to VS Code Marketplace
+name: Publish to VS Code Marketplace and Open VSX
 
 on:
   push:
@@ -22,16 +22,23 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install vsce
-        run: npm install -g @vscode/vsce
+      - name: Install vsce and ovsx
+        run: |
+          npm install -g @vscode/vsce
+          npm install -g ovsx
 
       - name: Package Extension
         run: vsce package
 
-      - name: Publish to Marketplace
+      - name: Publish to VS Code Marketplace
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
         run: vsce publish -p $VSCE_PAT
+
+      - name: Publish to Open VSX
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}
+        run: ovsx publish -p $OVSX_PAT
 
       - name: Create GitHub Release
         if: startsWith(github.ref, 'refs/tags/')
