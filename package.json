@@ -2,7 +2,7 @@
   "name": "fedaykin-themes",
   "displayName": "Fedaykin",
   "description": "Dark Dune-inspired themes for VS Code",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "FedaykinDev",
   "repository": {
     "type": "git",
@@ -39,6 +39,11 @@
         "label": "Fedaykin Arrakis",
         "uiTheme": "vs-dark",
         "path": "./themes/fedaykin-dark-arrakis-color-theme.json"
+      },
+      {
+        "label": "Fedaykin Arrakis Inc",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-arrakis-inc-color-theme.json"
       },
       {
         "label": "Fedaykin Movie One",

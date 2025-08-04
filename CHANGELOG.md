@@ -1,4 +1,9 @@
 # Change Log
+## [0.0.3] - 2025-08-05
+### Added
+- New theme: Arrakis Inc, A warm desert theme with sandy browns, spice golds, and oasis greens. Based on
+  Flexoki Dark with a subtle Dune-inspired palette.
+
 ## [0.0.2] - 2025-08-02
 ### Added
 - Three new themes: Dune Night, Dune Day, and Dune Harkonnen
