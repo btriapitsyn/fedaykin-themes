@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/bohdantriapitsyn/projects/fedaykin-themes/logs/.4db2cb02e360e8775cd900cb910311b89456619b-audit.json",
+    "files": [
+        {
+            "date": 1754389847926,
+            "name": "/Users/bohdantriapitsyn/projects/fedaykin-themes/logs/mcp-puppeteer-2025-08-05.log",
+            "hash": "62df57d7376b8eaabf7b2a32c03ecd2811a35e65822bc724631a32cc529f6699"
+        }
+    ],
+    "hashType": "sha256"
+}

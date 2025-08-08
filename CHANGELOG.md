@@ -1,4 +1,8 @@
 # Change Log
+## [0.0.4] - 2025-08-08
+### Fixed
+- Lowered VS Code engine requirement to 1.74.0 for Cursor compatibility
+
 ## [0.0.3] - 2025-08-05
 ### Added
 - New theme: Arrakis Inc, A warm desert theme with sandy browns, spice golds, and oasis greens. Based on

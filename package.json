@@ -2,7 +2,7 @@
   "name": "fedaykin-themes",
   "displayName": "Fedaykin",
   "description": "Dark Dune-inspired themes for VS Code",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "FedaykinDev",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "theme": "dark"
   },
   "engines": {
-    "vscode": "^1.102.0"
+    "vscode": "^1.74.0"
   },
   "categories": [
     "Themes"
