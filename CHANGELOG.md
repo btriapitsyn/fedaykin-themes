@@ -1,4 +1,24 @@
 # Change Log
+
+## [1.0.0] - 2025-08-09
+### Changed
+- **MAJOR UPDATE**: Complete theme collection overhaul
+- Replaced all existing themes with 17 new Dune-inspired themes
+- Consistent naming convention: "Dune [Name]" for all themes
+- Updated to version 1.0.0 to reflect major release
+
+### Added
+- 17 comprehensive Dune themes organized by categories:
+  - **House & Faction Themes**: Giedi Prime, Harkonnen, House Atreides, Sardaukar Imperial, Bene Gesserit
+  - **Character Themes**: Muad'Dib, Fremen Sietch (Light)
+  - **Planet Themes**: Arrakis Incandescent, Sandworm, Caladan Storm, Salusa Secundus, Ix Technology
+  - **Guild & Commerce Themes**: Guild Navigator, Spacing Guild
+  - **Mystical & Mental Themes**: Water of Life, Mentat (Light), Spice Vision
+- Two light themes: Dune Fremen Sietch and Dune Mentat
+- Narrative-driven design philosophy for each theme
+
+### Removed
+- All previous theme variations (Fedaykin Default, Fedaykin Arrakis, Movie One, Jodorowsky Dune, Dune Night, Dune Day)
 ## [0.0.5] - 2025-08-08
 ### Added
 - New theme: Fedaykin Giedi Prime - A stark industrial monochrome theme with subtle pastel accents

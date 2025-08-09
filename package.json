@@ -1,8 +1,8 @@
 {
   "name": "fedaykin-themes",
   "displayName": "Fedaykin",
-  "description": "Dark Dune-inspired themes for VS Code",
-  "version": "0.0.5",
+  "description": "A comprehensive collection of Dune-inspired themes for VS Code",
+  "version": "1.0.0",
   "publisher": "FedaykinDev",
   "repository": {
     "type": "git",
@@ -22,58 +22,102 @@
   "keywords": [
     "theme",
     "dark theme",
+    "light theme",
     "dune",
     "fedaykin",
     "arrakis",
     "desert",
-    "warm"
+    "warm",
+    "atreides",
+    "harkonnen",
+    "spice"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Fedaykin Default",
-        "uiTheme": "vs-dark",
-        "path": "./themes/fedaykin-dark-color-theme.json"
-      },
-      {
-        "label": "Fedaykin Arrakis",
-        "uiTheme": "vs-dark",
-        "path": "./themes/fedaykin-dark-arrakis-color-theme.json"
-      },
-      {
-        "label": "Fedaykin Arrakis Inc",
+        "label": "Dune Arrakis Incandescent",
         "uiTheme": "vs-dark",
         "path": "./themes/dune-arrakis-inc-color-theme.json"
       },
       {
-        "label": "Fedaykin Movie One",
+        "label": "Dune Bene Gesserit",
         "uiTheme": "vs-dark",
-        "path": "./themes/dune-movie-one-color-theme.json"
+        "path": "./themes/dune-bene-gesserit-color-theme.json"
       },
       {
-        "label": "Fedaykin Jodorowsky Dune",
+        "label": "Dune Caladan Storm",
         "uiTheme": "vs-dark",
-        "path": "./themes/jodorowsky-dune-color-theme.json"
+        "path": "./themes/dune-caladan-storm-color-theme.json"
       },
       {
-        "label": "Fedaykin Dune Night",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dune-night-color-theme.json"
-      },
-      {
-        "label": "Fedaykin Dune Day",
+        "label": "Dune Fremen Sietch",
         "uiTheme": "vs",
-        "path": "./themes/dune-day-color-theme.json"
+        "path": "./themes/dune-fremen-sietch-color-theme.json"
       },
       {
-        "label": "Fedaykin Dune Harkonnen",
+        "label": "Dune Giedi Prime",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-giedi-prime-color-theme.json"
+      },
+      {
+        "label": "Dune Guild Navigator",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-guild-navigator-color-theme.json"
+      },
+      {
+        "label": "Dune Harkonnen",
         "uiTheme": "vs-dark",
         "path": "./themes/dune-harkonnen-color-theme.json"
       },
       {
-        "label": "Fedaykin Giedi Prime",
+        "label": "Dune House Atreides",
         "uiTheme": "vs-dark",
-        "path": "./themes/dune-giedi-prime-color-theme.json"
+        "path": "./themes/dune-house-atreides-color-theme.json"
+      },
+      {
+        "label": "Dune Ix Technology",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-ix-technology-color-theme.json"
+      },
+      {
+        "label": "Dune Mentat",
+        "uiTheme": "vs",
+        "path": "./themes/dune-mentat-color-theme.json"
+      },
+      {
+        "label": "Dune Muad'Dib",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-muaddib-color-theme.json"
+      },
+      {
+        "label": "Dune Salusa Secundus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-salusa-secundus-color-theme.json"
+      },
+      {
+        "label": "Dune Sandworm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-sandworm-color-theme.json"
+      },
+      {
+        "label": "Dune Sardaukar Imperial",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-sardaukar-imperial-color-theme.json"
+      },
+      {
+        "label": "Dune Spacing Guild",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-spacing-guild-color-theme.json"
+      },
+      {
+        "label": "Dune Spice Vision",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-spice-vision-color-theme.json"
+      },
+      {
+        "label": "Dune Water of Life",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-water-of-life-color-theme.json"
       }
     ]
   }

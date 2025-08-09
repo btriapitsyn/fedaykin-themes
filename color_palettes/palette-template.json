@@ -1,67 +1,60 @@
 {
-  "name": "{{palette_name}}",
-  "description": "Generated color palette with unified hue, brightness, and saturation",
-  "colors": {
-    // Core backgrounds
-    "color_01": "{{color_01}}",     // Primary canvas (editor, sidebar, activity bar, tabs, panel)
-    "color_02": "{{color_02}}",     // Status bar, peek view backgrounds
-    "color_03": "{{color_03}}",     // Elevated surfaces (line highlight, active tab, widgets, inputs, dropdowns, lists, breadcrumb picker, quick input)
-    "color_04": "{{color_04}}",     // Hover states (list hover, inactive selection)
-    "color_05": "{{color_05}}",     // Selection backgrounds
-    "color_06": "{{color_06}}",     // Active selections (autocomplete, quick input focus)
-
-    // Borders and dividers
-    "color_07": "{{color_07}}",     // Primary borders (whitespace, ruler, widget borders, input borders)
-    "color_08": "{{color_08}}",     // Line numbers, activity bar icons, terminal bright black, brackets
-
-    // Text hierarchy
-    "color_09": "{{color_09}}",     // Primary text (editor, cursor, sidebar, active elements, variable semantic)
-    "color_10": "{{color_10}}",     // Secondary text (status bar, inactive tabs, breadcrumb, descriptions, language methods)
-    "color_11": "{{color_11}}",     // Tertiary text (comments, placeholders)
-    "color_12": "{{color_12}}",     // Git ignored files
-    "color_13": "{{color_13}}",     // Special variable color (TextMate only)
-
-    // Syntax highlighting
-    "color_14": "{{color_14}}",     // Strings, bracket pair 5
-    "color_15": "{{color_15}}",     // Numbers, constants, parameters, tags, bracket pair 6
-    "color_16": "{{color_16}}",     // Keywords, operators, built-in variables/functions, bracket pair 3
-    "color_17": "{{color_17}}",     // Functions, methods, decorators, git conflicts, bracket pair 4
-    "color_18": "{{color_18}}",     // Types, classes, interfaces, bracket pair 2
-    "color_19": "{{color_19}}",     // Properties, regex, attributes, bracket pair 1
-
-    // Semantic state colors
-    "color_20": "{{color_20}}",     // Errors (squiggles, icons, rulers, mismatched brackets)
-    "color_21": "{{color_21}}",     // Warnings (squiggles, icons, rulers, git modified)
-    "color_22": "{{color_22}}",     // Info (squiggles, icons, rulers)
-    "color_23": "{{color_23}}",     // Success, git added, terminal bright green, JS string literals
-    "color_24": "{{color_24}}",     // Git untracked
-
-    // UI accent colors
-    "color_25": "{{color_25}}",     // Primary accent (badges, buttons, links, peek borders, settings modified)
-    "color_26": "{{color_26}}",     // Button hover
-
-    // Terminal special
-    "color_27": "{{color_27}}",     // Terminal bright magenta
-    "color_28": "{{color_28}}",     // Terminal bright cyan
-    "color_29": "{{color_29}}",     // Terminal bright white
-
-    // Transparencies and overlays
-    "color_30": "{{color_30}}",   // Invisible borders
-    "color_31": "{{color_31}}",   // Transparent line highlight border
-    "color_32": "{{color_32}}",   // Semi-transparent borders
-    "color_33": "{{color_33}}",   // Selection highlight inactive
-    "color_34": "{{color_34}}",   // Scrollbar track, bracket match background
-    "color_35": "{{color_35}}",   // Scrollbar hover
-    "color_36": "{{color_36}}",   // Scrollbar active
-    "color_37": "{{color_37}}",   // Active tab border
-    "color_38": "{{color_38}}",   // Shadow
-    "color_39": "{{color_39}}",   // Markdown fenced code block
-    "color_40": "{{color_40}}",   // Find range highlight
-    "color_41": "{{color_41}}",   // Word highlight, focus border
-    "color_42": "{{color_42}}",   // Find match highlight
-    "color_43": "{{color_43}}",   // Find match current
-    "color_44": "{{color_44}}",   // Bracket match border
-    "color_45": "{{color_45}}",   // Diff inserted background
-    "color_46": "{{color_46}}"    // Diff removed background
-  }
+    "name": "{{palette_name}}",
+    "description": "Generated color palette with unified hue, brightness, and saturation",
+    "colors": {
+        // Core backgrounds
+        "color_01": "{{color_01}}", // Primary canvas (editor, sidebar, activity bar, tabs, panel)
+        "color_02": "{{color_02}}", // Status bar, peek view backgrounds
+        "color_03": "{{color_03}}", // Elevated surfaces (line highlight, active tab, widgets, inputs, dropdowns, lists, breadcrumb picker, quick input)
+        "color_04": "{{color_04}}", // Hover states (list hover, inactive selection)
+        "color_05": "{{color_05}}", // Selection backgrounds
+        "color_06": "{{color_06}}", // Active selections (autocomplete, quick input focus)
+        // Borders and dividers
+        "color_07": "{{color_07}}", // Primary borders (whitespace, ruler, widget borders, input borders)
+        "color_08": "{{color_08}}", // Line numbers, activity bar icons, terminal bright black, brackets
+        // Text hierarchy
+        "color_09": "{{color_09}}", // Primary text (editor, cursor, sidebar, active elements, variable semantic)
+        "color_10": "{{color_10}}", // Secondary text (status bar, inactive tabs, breadcrumb, descriptions, language methods)
+        "color_11": "{{color_11}}", // Tertiary text (comments, placeholders)
+        "color_12": "{{color_12}}", // Git ignored files
+        "color_13": "{{color_13}}", // Special variable color (TextMate only)
+        // Syntax highlighting
+        "color_14": "{{color_14}}", // Strings, bracket pair 5
+        "color_15": "{{color_15}}", // Numbers, constants, parameters, tags, bracket pair 6
+        "color_16": "{{color_16}}", // Keywords, operators, built-in variables/functions, bracket pair 3
+        "color_17": "{{color_17}}", // Functions, methods, decorators, git conflicts, bracket pair 4
+        "color_18": "{{color_18}}", // Types, classes, interfaces, bracket pair 2
+        "color_19": "{{color_19}}", // Properties, regex, attributes, bracket pair 1
+        // Semantic state colors
+        "color_20": "{{color_20}}", // Errors (squiggles, icons, rulers, mismatched brackets)
+        "color_21": "{{color_21}}", // Warnings (squiggles, icons, rulers, git modified)
+        "color_22": "{{color_22}}", // Info (squiggles, icons, rulers)
+        "color_23": "{{color_23}}", // Success, git added, terminal bright green, JS string literals
+        "color_24": "{{color_24}}", // Git untracked
+        // UI accent colors
+        "color_25": "{{color_25}}", // Primary accent (badges, buttons, links, peek borders, settings modified)
+        "color_26": "{{color_26}}", // Button hover
+        // Terminal special
+        "color_27": "{{color_27}}", // Terminal bright magenta
+        "color_28": "{{color_28}}", // Terminal bright cyan
+        "color_29": "{{color_29}}", // Terminal bright white
+        // Transparencies and overlays
+        "color_30": "{{color_30}}", // Invisible borders
+        "color_31": "{{color_31}}", // Transparent line highlight border
+        "color_32": "{{color_32}}", // Semi-transparent borders
+        "color_33": "{{color_33}}", // Selection highlight inactive
+        "color_34": "{{color_34}}", // Scrollbar track, bracket match background
+        "color_35": "{{color_35}}", // Scrollbar hover
+        "color_36": "{{color_36}}", // Scrollbar active
+        "color_37": "{{color_37}}", // Active tab border
+        "color_38": "{{color_38}}", // Shadow
+        "color_39": "{{color_39}}", // Markdown fenced code block
+        "color_40": "{{color_40}}", // Find range highlight
+        "color_41": "{{color_41}}", // Word highlight, focus border
+        "color_42": "{{color_42}}", // Find match highlight
+        "color_43": "{{color_43}}", // Find match current
+        "color_44": "{{color_44}}", // Bracket match border
+        "color_45": "{{color_45}}", // Diff inserted background
+        "color_46": "{{color_46}}" // Diff removed background
+    }
 }
