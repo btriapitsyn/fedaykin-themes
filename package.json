@@ -2,7 +2,7 @@
   "name": "fedaykin-themes",
   "displayName": "Fedaykin",
   "description": "Dark Dune-inspired themes for VS Code",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "FedaykinDev",
   "repository": {
     "type": "git",
@@ -69,6 +69,11 @@
         "label": "Fedaykin Dune Harkonnen",
         "uiTheme": "vs-dark",
         "path": "./themes/dune-harkonnen-color-theme.json"
+      },
+      {
+        "label": "Fedaykin Giedi Prime",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-giedi-prime-color-theme.json"
       }
     ]
   }

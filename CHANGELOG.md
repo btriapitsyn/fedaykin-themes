@@ -1,4 +1,8 @@
 # Change Log
+## [0.0.5] - 2025-08-08
+### Added
+- New theme: Fedaykin Giedi Prime - A stark industrial monochrome theme with subtle pastel accents
+
 ## [0.0.4] - 2025-08-08
 ### Fixed
 - Lowered VS Code engine requirement to 1.74.0 for Cursor compatibility
