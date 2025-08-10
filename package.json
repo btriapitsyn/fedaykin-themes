@@ -2,7 +2,7 @@
   "name": "fedaykin-themes",
   "displayName": "Fedaykin",
   "description": "A comprehensive collection of Dune-inspired themes for VS Code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "FedaykinDev",
   "repository": {
     "type": "git",

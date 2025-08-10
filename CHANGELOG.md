@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.1] - 2025-08-10
+### Documentation
+- Added screenshots to README for visual theme preview
+- Featured Dune Arrakis Incandescent as main showcase
+- Included Caladan Storm and Mentat themes in collapsible section
+
 ## [1.0.0] - 2025-08-09
 ### Changed
 - **MAJOR UPDATE**: Complete theme collection overhaul

@@ -2,6 +2,19 @@
 
 A comprehensive collection of Dune-inspired themes for Visual Studio Code - from dark atmospheric palettes to warm light themes.
 
+![Dune Arrakis Incandescent Theme](screenshots/vscode-dune-arrakis-inc.png)
+
+<details>
+<summary>📸 More Screenshots</summary>
+
+### Dune Caladan Storm
+![Dune Caladan Storm Theme](screenshots/vscode-dune-caladan-storm.png)
+
+### Dune Mentat (Light Theme)
+![Dune Mentat Theme](screenshots/vscode-dune-mentat.png)
+
+</details>
+
 ## Themes Included (17 Total)
 
 ### House & Faction Themes
