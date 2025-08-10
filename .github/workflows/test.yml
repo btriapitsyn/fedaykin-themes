@@ -35,8 +35,16 @@ jobs:
 
       - name: Validate theme generation
         run: |
-          python generate_theme.py color_palettes/fedaykin-dark.json
-          python generate_theme.py color_palettes/fedaykin-dark-arrakis.json
+          # Test with a couple of different theme types
+          python generate_theme.py color_palettes/dune-arrakis-inc.json
+          python generate_theme.py color_palettes/dune-harkonnen.json
+          python generate_theme.py color_palettes/dune-mentat.json
+          # Verify all themes can be generated
+          echo "Testing all color palettes..."
+          for palette in color_palettes/dune-*.json; do
+            echo "Generating theme from $palette"
+            python generate_theme.py "$palette"
+          done
 
       - name: Package Extension
         run: vsce package
