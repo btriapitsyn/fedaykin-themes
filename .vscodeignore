@@ -9,13 +9,16 @@ generate_theme.py
 color_palettes/
 themes/theme-template.json
 references/
+themes-ideas.md
 DEVELOPMENT.md
-
-# Claude AI files
+.opencode/
 .claude/
+.github/
+.mise.toml
 
 # Python files
 venv/
+.venv/
 __pycache__/
 *.pyc
 requirements.txt

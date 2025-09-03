@@ -15,7 +15,7 @@ A comprehensive collection of Dune-inspired themes for Visual Studio Code - from
 
 </details>
 
-## Themes Included (17 Total)
+## Themes Included (18 Total)
 
 ### House & Faction Themes
 - **Dune Giedi Prime** - A stark industrial monochrome theme with subtle pastel accents
@@ -32,6 +32,7 @@ A comprehensive collection of Dune-inspired themes for Visual Studio Code - from
 - **Dune Arrakis Incandescent** - A warm desert theme with glowing incandescent tones - golden spice and sunset rose
 - **Dune Sandworm** - Inspired by the great makers - sandy beiges, deep earth browns, and electric spice blue
 - **Dune Caladan Storm** - The tempestuous Atreides homeworld - storm grays, ocean navy, and lightning blues
+- **Dune Kaitain** - The Imperial capital planet - deep oceanic backgrounds with vibrant yet grounded syntax highlighting featuring olive drab strings, warm amber numbers, and bright function blues
 - **Dune Salusa Secundus** - The prison planet that forged the Sardaukar - volcanic reds, ash grays, and molten metal
 - **Dune Ix Technology** - The machine planet - sleek metallics, circuit greens, and holographic purples
 
@@ -81,7 +82,7 @@ A comprehensive collection of Dune-inspired themes for Visual Studio Code - from
 - 👁️ Optimized contrast for reduced eye strain
 - 🔧 Complete VS Code UI theming
 - 📝 Enhanced support for JavaScript, TypeScript, Python, HTML/CSS, JSON, Markdown, and more
-- 🌙 15 dark themes and 2 light themes
+- 🌙 16 dark themes and 2 light themes
 - 🏜️ Each theme tells a story from the Dune universe
 
 ## Development

@@ -2,7 +2,7 @@
   "name": "fedaykin-themes",
   "displayName": "Fedaykin",
   "description": "A comprehensive collection of Dune-inspired themes for VS Code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "FedaykinDev",
   "repository": {
     "type": "git",
@@ -78,6 +78,11 @@
         "label": "Dune Ix Technology",
         "uiTheme": "vs-dark",
         "path": "./themes/dune-ix-technology-color-theme.json"
+      },
+      {
+        "label": "Dune Kaitain",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-kaitain-color-theme.json"
       },
       {
         "label": "Dune Mentat",

@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.2] - 2025-09-03
+### Added
+- **Dune Kaitain** - The Imperial capital planet - deep oceanic backgrounds with vibrant yet grounded syntax highlighting featuring olive drab strings, warm amber numbers, and bright function blues
+
 ## [1.0.1] - 2025-08-10
 ### Documentation
 - Added screenshots to README for visual theme preview
